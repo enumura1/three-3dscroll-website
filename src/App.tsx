@@ -1,12 +1,11 @@
-import { Canvas, useThree, } from '@react-three/fiber';
-import { useScroll, Image, ScrollControls, Scroll } from "@react-three/drei";
+import { Canvas, useThree } from '@react-three/fiber';
+import { Image, ScrollControls, Scroll } from "@react-three/drei";
 
 // 外部ファイルのインポート
 import './App.css';
 
-// スクロール位置の取得
-
 function Images() {
+  // スクロール位置の取得
   const { width, height } = useThree<{ width: number; height: number }>((state) => state.viewport);
 
   return (
