@@ -30,6 +30,9 @@ function App() {
         <Scroll html>
           <h1>create</h1>
           <h1>3DModel</h1>
+          <h1 style={{ position: "absolute", top: "130vh" }}>created</h1>
+          <h1 style={{ position: "absolute", top: "170vh" }}>with</h1>
+          <h1 style={{ position: "absolute", top: "210vh" }}>Blender</h1>
         </Scroll>
       </ScrollControls>
     </Canvas>
