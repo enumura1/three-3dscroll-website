@@ -11,10 +11,10 @@ function Images() {
 
   return (
     <group>
-      <Image url="./img1.png" scale={[3, height]} position={[3, -2, 0]} />
-      <Image url="./img2.png" scale={[4, 2]} position={[3, height - 7, 1]} />
-      <Image url="./img3.png" scale={[3, 2]} position={[1, -height, 2]} />
-      <Image url="./img4.png" scale={[5, 3]} position={[2, -height - 1, 3]} />
+      <Image url="./img1.png" scale={[5, height]} position={[4.3, -0.5, 0]} />
+      <Image url="./img2.png" scale={[6, 4]} position={[-2.5, -height, 1]} />
+      <Image url="./img3.png" scale={[6, 4]} position={[-2, -height - 8, 1.5]} />
+      <Image url="./img4.png" scale={[5, 6]} position={[1.5, -height - 3.8, 1.8]} />
     </group>
   );
 }
