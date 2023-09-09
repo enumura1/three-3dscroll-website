@@ -16,5 +16,11 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 13em;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }

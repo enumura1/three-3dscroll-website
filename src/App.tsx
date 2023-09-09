@@ -11,8 +11,8 @@ function Images() {
 
   return (
     <group>
-      <Image url="./img1.png" scale={[3, height]} position={[-3, -2, 0]} />
-      <Image url="./img2.png" scale={[4, 2]} position={[-3, 1, 1]} />
+      <Image url="./img1.png" scale={[3, height]} position={[3, -2, 0]} />
+      <Image url="./img2.png" scale={[4, 2]} position={[3, height - 7, 1]} />
       <Image url="./img3.png" scale={[3, 2]} position={[1, -height, 2]} />
       <Image url="./img4.png" scale={[5, 3]} position={[2, -height - 1, 3]} />
     </group>
@@ -26,6 +26,10 @@ function App() {
       <ScrollControls pages={3} damping={1}>
         <Scroll>
           <Images />
+        </Scroll>
+        <Scroll html>
+          <h1>create</h1>
+          <h1>3DModel</h1>
         </Scroll>
       </ScrollControls>
     </Canvas>
